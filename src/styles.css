@@ -26,8 +26,8 @@ header h2 {
 }
 
 header h3 {
-  font-family: "Playfair Display", serif;
   font-size: 25px;
+  font-weight: 400;
   line-height: 1.5;
   letter-spacing: 3px;
   text-transform: uppercase;
