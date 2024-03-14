@@ -1,9 +1,55 @@
-h1 {
-  font-family: "Playfair Display", serif;
-  font-size: 50px;
+body {
+  font-family: "Open Sans", sans-serif;
 }
 
-h2,
-p {
-  font-family: "Open Sans", sans-serif;
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../images/baldursgate-banner.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  text-align: center;
+  padding: 160px;
+}
+
+header h1 {
+  font-family: "Playfair Display", serif;
+  font-size: 100px;
+  line-height: 1.5;
+  margin: 0;
+}
+header h2 {
+  font-size: 36px;
+  line-height: 1.5;
+  font-weight: 400;
+  margin: 0;
+}
+
+header h3 {
+  font-family: "Playfair Display", serif;
+  font-size: 25px;
+  line-height: 1.5;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+header a {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.5;
+  text-align: center;
+  text-decoration: none;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  background: #fff;
+  color: #1f1717;
+  padding: 16px 32px;
+  margin-top: 32px;
+  display: inline-block;
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
 }
