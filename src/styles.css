@@ -73,7 +73,6 @@ footer h3 {
 
 footer p {
   font-size: 16px;
-  margin-right: 20px;
 }
 
 footer ul {
@@ -104,6 +103,7 @@ footer a:hover {
 .grid {
   display: grid;
   grid-template-columns: 1fr 2fr 2fr;
+  grid-gap: 64px;
 }
 
 @media (max-width: 960px) {
