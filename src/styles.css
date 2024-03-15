@@ -1,10 +1,12 @@
 body {
   font-family: "Open Sans", sans-serif;
+  background-color: #c4bfb0;
 }
 
 section {
-  max-width: 1000px;
+  max-width: 1200px;
   margin: 0 auto;
+  padding: 100px 0;
 }
 
 header {
@@ -54,13 +56,38 @@ header a {
   display: inline-block;
 }
 
+main {
+  background-color: #fff;
+}
+
+main h3 {
+  font-size: 17px;
+  color: #407b57;
+  font-weight: 400;
+  line-height: 1;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  margin: 10px 0;
+}
+
+main h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 36px;
+  font-weight: 400px;
+  line-height: 1;
+  margin: 0;
+}
+
+main p {
+  font-size: 16px;
+}
+
 footer {
   color: #fff;
   background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
     url("../images/baldursgate-footer.png");
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 100px 0;
 }
 
 footer h3 {
@@ -100,10 +127,21 @@ footer a:hover {
   margin: 0 auto;
 }
 
+.img-responsive {
+  max-width: 100%;
+}
+
 .grid {
   display: grid;
-  grid-template-columns: 1fr 2fr 2fr;
   grid-gap: 64px;
+}
+
+.grid-2-col {
+  grid-template-columns: 1fr 1fr;
+}
+
+.grid-3-col {
+  grid-template-columns: 1fr 2fr 2fr;
 }
 
 @media (max-width: 960px) {
@@ -121,5 +159,13 @@ footer a:hover {
 
   header h3 {
     font-size: 20px;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+    grid-gap: 32px;
+  }
+  section {
+    padding: 30px;
   }
 }
